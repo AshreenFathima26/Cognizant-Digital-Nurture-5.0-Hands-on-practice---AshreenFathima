@@ -139,6 +139,7 @@ The objective of this repository is to strengthen my understanding of enterprise
 - Improved Code Maintainability
 - Followed Enterprise Software Development Practices
 
+---
 
 ## ⏳ Week 5 – Frontend Development
 
