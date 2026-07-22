@@ -1,0 +1,5 @@
+# Created at 2026-07-23T00:48:38.402
+Boot Manifest-JAR contains absolute paths in classpath 'F:\COGNIZANT DEEP SKILLING\Week 4\Programs\SonarQube\employeemanagement\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
