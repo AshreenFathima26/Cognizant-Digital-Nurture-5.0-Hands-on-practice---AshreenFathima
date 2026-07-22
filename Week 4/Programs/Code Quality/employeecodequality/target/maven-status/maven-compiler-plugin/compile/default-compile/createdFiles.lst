@@ -1,5 +1,0 @@
-com\employee\employeecodequality\EmployeecodequalityApplication.class
-com\employee\employeecodequality\service\EmployeeService.class
-com\employee\employeecodequality\entity\Employee.class
-com\employee\employeecodequality\repository\EmployeeRepository.class
-com\employee\employeecodequality\controller\EmployeeController.class
