@@ -113,16 +113,32 @@ The objective of this repository is to strengthen my understanding of enterprise
 
 ---
 
-## ⏳ Week 4 – Enterprise Development
+## ✅ Week 4 – Enterprise Development
 
-### Planned Topics
+### Topics Covered
 
-- Code Quality
-- SonarQube
-- Microservices
-- Spring Cloud
+- Spring Cloud Microservices
+- Microservices Architecture
+- Eureka Discovery Server
+- API Gateway
+- Account Microservice
+- Loan Microservice
+- Service Registration & Discovery
+- REST API Development
+- SonarQube Static Code Analysis
+- Code Quality Analysis
 
----
+### Learning Outcomes
+
+- Developed Spring Cloud Microservices
+- Configured Eureka Service Discovery
+- Implemented API Gateway Routing
+- Built Independent Microservices
+- Understood Service Registration & Communication
+- Performed Static Code Analysis using SonarQube
+- Improved Code Maintainability
+- Followed Enterprise Software Development Practices
+
 
 ## ⏳ Week 5 – Frontend Development
 
