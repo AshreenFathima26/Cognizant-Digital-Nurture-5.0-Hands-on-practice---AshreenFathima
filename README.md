@@ -1,6 +1,6 @@
 # 🚀 Cognizant Digital Nurture 5.0 – Deep Skilling Journey
 
-![Java](https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=java)
+![Java](https://img.shields.io/badge/Java-21-orange?style=for-the-badge&logo=java)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-Framework-green?style=for-the-badge&logo=springboot)
 ![SQL](https://img.shields.io/badge/SQL-Database-blue?style=for-the-badge&logo=mysql)
 ![Git](https://img.shields.io/badge/Git-Version_Control-red?style=for-the-badge&logo=git)
