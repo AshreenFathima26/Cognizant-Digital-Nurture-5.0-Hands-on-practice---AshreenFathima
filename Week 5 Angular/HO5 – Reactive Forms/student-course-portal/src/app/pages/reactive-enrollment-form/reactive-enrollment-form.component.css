@@ -1,0 +1,212 @@
+/* Page Background */
+
+.enrollment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background: #f4f8fc;
+    min-height: 100vh;
+}
+
+/* Card */
+
+.enrollment-card {
+    width: 100%;
+    max-width: 700px;
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+/* Heading */
+
+.enrollment-card h2 {
+    color: #0d47a1;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+/* Form */
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #333;
+}
+
+.form-group input,
+.form-group select {
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #1976d2;
+}
+
+/* Checkbox */
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Error */
+
+.error {
+    color: #d32f2f;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+/* Success Borders */
+
+input.ng-valid.ng-touched,
+select.ng-valid.ng-touched {
+    border: 2px solid #2e7d32;
+}
+
+/* Error Borders */
+
+input.ng-invalid.ng-touched,
+select.ng-invalid.ng-touched {
+    border: 2px solid #d32f2f;
+}
+
+/* Buttons */
+
+.button-group {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.button-group button {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background: #1976d2;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.button-group button:hover:not(:disabled) {
+    background: #0d47a1;
+}
+
+.button-group button:disabled {
+    background: #90caf9;
+    cursor: not-allowed;
+}
+
+/* Secondary Button */
+
+.secondary-btn {
+    background: #43a047;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.secondary-btn:hover {
+    background: #2e7d32;
+}
+
+/* Additional Courses */
+
+.course-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.course-row input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+}
+
+.remove-btn {
+    background: #e53935;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background: #c62828;
+}
+
+/* Divider */
+
+hr {
+    margin: 25px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .enrollment-card {
+        padding: 20px;
+    }
+
+    .course-row {
+        flex-direction: column;
+    }
+
+    .button-group {
+        flex-direction: column;
+    }
+
+    .button-group button,
+    .secondary-btn,
+    .remove-btn {
+        width: 100%;
+    }
+    
+    .success-message {
+    margin-top: 20px;
+    padding: 12px;
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+}
+
+}
