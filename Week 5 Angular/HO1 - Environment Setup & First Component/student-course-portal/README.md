@@ -1,59 +1,159 @@
-# StudentCoursePortal
+# Week 5 - Hands-On 1: Environment Setup & First Component
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.27.
+## Cognizant Digital Nurture 5.0 – Deep Skilling Program
 
-## Development server
+### Module
+Frontend Development using Angular
 
-To start a local development server, run:
+---
+
+## Hands-On Objective
+
+The objective of this hands-on is to set up the Angular development environment, create a new Angular application, configure routing, and build the initial application structure using standalone components.
+
+---
+
+## Learning Outcomes
+
+- Install and configure Angular CLI
+- Create a new Angular project
+- Understand Angular project structure
+- Configure application routing
+- Generate reusable components
+- Build the basic application layout
+- Verify application execution using Angular development server
+
+---
+
+## Project Information
+
+**Project Name**
+
+```
+student-course-portal
+```
+
+**Framework**
+
+```
+Angular 19
+```
+
+**Language**
+
+```
+TypeScript
+```
+
+**Package Manager**
+
+```
+npm
+```
+
+---
+
+## Components Created
+
+```
+Header Component
+Home Component
+Course List Component
+Student Profile Component
+```
+
+---
+
+## Routing Configuration
+
+| Route | Component |
+|--------|-----------|
+| `/` | Home Component |
+| `/courses` | Course List Component |
+| `/profile` | Student Profile Component |
+
+---
+
+## Project Structure
+
+```
+student-course-portal
+│
+├── public
+├── src
+│   ├── app
+│   │   ├── components
+│   │   │   └── header
+│   │   ├── pages
+│   │   │   ├── home
+│   │   │   ├── course-list
+│   │   │   └── student-profile
+│   │   ├── app.component.ts
+│   │   ├── app.component.html
+│   │   ├── app.routes.ts
+│   │   └── app.config.ts
+│   └── main.ts
+│
+├── angular.json
+├── package.json
+├── tsconfig.json
+├── README.md
+└── Notes.txt
+```
+
+---
+
+## Execution
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the project
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Open the application
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```
+http://localhost:4200
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## Expected Output
 
-## Building
+- Angular application runs successfully.
+- Header component is displayed.
+- Home page loads as the default route.
+- Navigation is configured using Angular Router.
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+## Technologies Used
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+- Angular 19
+- TypeScript
+- HTML5
+- CSS3
+- Angular Router
+- Node.js
+- npm
 
-## Running unit tests
+---
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## Status
 
-```bash
-ng test
-```
+**Hands-On 1 Completed Successfully**
 
-## Running end-to-end tests
+---
 
-For end-to-end (e2e) testing, run:
+**Program:** Cognizant Digital Nurture 5.0 – Deep Skilling
 
-```bash
-ng e2e
-```
+**Track:** Java Full Stack Engineer (Frontend - Angular)
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+**Developed by:** Ashreen Fathima
