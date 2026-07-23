@@ -1,0 +1,67 @@
+<h1>Available Courses</h1>
+
+<br>
+
+<div style="text-align:center;">
+
+    <input
+
+        type="text"
+
+        placeholder="Search Courses"
+
+        [(ngModel)]="searchText"
+
+        style="padding:10px;width:320px;"
+
+    >
+
+</div>
+
+<br>
+
+<div style="text-align:center;">
+
+    <strong>
+
+        Searching for :
+
+        {{searchText}}
+
+    </strong>
+
+</div>
+
+<br>
+
+<div class="courses">
+
+    <app-course-card
+
+        *ngFor="let course of filteredCourses"
+
+        [course]="course"
+
+        (enrollRequested)="onEnroll($event)"
+
+    >
+
+    </app-course-card>
+
+</div>
+
+<br>
+
+<div
+*ngIf="selectedCourseId"
+style="text-align:center;">
+
+    <h2 style="color:green;">
+
+        Selected Course ID :
+
+        {{selectedCourseId}}
+
+    </h2>
+
+</div>
