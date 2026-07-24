@@ -1,0 +1,77 @@
+<div class="course-page">
+
+    <h1>📚 Available Courses</h1>
+
+    <!-- Search (HO2) -->
+    <div class="search-box">
+        <input
+            type="text"
+            placeholder="Search Course..."
+            [(ngModel)]="searchText">
+    </div>
+
+    <!-- Show / Hide (HO3) -->
+    <div class="button-section">
+        <button (click)="showCourses=!showCourses">
+            {{ showCourses ? 'Hide Courses' : 'Show Courses' }}
+        </button>
+    </div>
+
+    <!-- *ngIf -->
+    <div *ngIf="showCourses">
+
+        <!-- No Courses Found -->
+        <div *ngIf="filteredCourses.length==0">
+            <h2>No Courses Found</h2>
+        </div>
+
+        <!-- *ngFor -->
+        <div class="course-container">
+
+            <div
+                class="course-card"
+                *ngFor="let course of filteredCourses"
+                [ngClass]="{'enrolled-card':course.enrolled}"
+                [ngStyle]="{'border-left':course.enrolled ? '6px solid green':'6px solid #0d6efd'}">
+
+                <h2>{{course.name | uppercase}}</h2>
+
+<p><strong>ID :</strong> {{course.id}}</p>
+
+<p><strong>Code :</strong> {{course.code | lowercase}}</p>
+
+<p><strong>Title :</strong> {{course.name | titlecase}}</p>
+
+<p><strong>Credits :</strong> {{course.credits}}</p>
+
+<p><strong>Course Fee :</strong> {{4500 | currency:'INR'}}</p>
+
+<p><strong>Updated :</strong> {{today | date:'mediumDate'}}</p>
+
+<p>
+    <strong>Status :</strong>
+    {{course.enrolled | courseStatus}}
+</p>
+
+                <button
+                    (click)="onEnroll(course)"
+                    [disabled]="course.enrolled">
+
+                    {{course.enrolled ? 'Enrolled' : 'Enroll'}}
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Selected Course -->
+    <div class="selected-course" *ngIf="selectedCourseId!=0">
+
+        <h3>Selected Course ID : {{selectedCourseId}}</h3>
+
+    </div>
+
+</div>
