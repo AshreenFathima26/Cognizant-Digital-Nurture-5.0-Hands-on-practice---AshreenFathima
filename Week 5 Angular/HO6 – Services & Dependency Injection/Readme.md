@@ -1,4 +1,4 @@
-# Week 6 – Angular Dependency Injection (HO6)
+# Angular Dependency Injection (HO6)
 
 ## 📌 Overview
 
