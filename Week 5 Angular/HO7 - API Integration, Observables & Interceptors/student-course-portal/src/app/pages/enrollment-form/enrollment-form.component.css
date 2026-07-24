@@ -1,0 +1,184 @@
+.enrollment-container{
+
+    max-width:700px;
+    margin:40px auto;
+    background:#ffffff;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.15);
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.enrollment-container h1{
+
+    text-align:center;
+    color:#0d47a1;
+    margin-bottom:30px;
+    font-size:34px;
+
+}
+
+.form-group{
+
+    margin-bottom:20px;
+    display:flex;
+    flex-direction:column;
+
+}
+
+.form-group label{
+
+    font-weight:bold;
+    margin-bottom:8px;
+    color:#333;
+
+}
+
+.form-group input,
+.form-group select{
+
+    padding:12px 15px;
+    font-size:15px;
+    border:2px solid #d0d0d0;
+    border-radius:10px;
+    outline:none;
+    transition:.3s;
+
+}
+
+.form-group input:focus,
+.form-group select:focus{
+
+    border-color:#1976d2;
+    box-shadow:0 0 8px rgba(25,118,210,.25);
+
+}
+
+.checkbox-group{
+
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin:20px 0;
+
+}
+
+.checkbox-group label{
+
+    font-weight:500;
+
+}
+
+.button-group{
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:30px;
+
+}
+
+.button-group button{
+
+    padding:12px 35px;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:bold;
+    transition:.3s;
+
+}
+
+.button-group button:first-child{
+
+    background:#1976d2;
+    color:white;
+
+}
+
+.button-group button:first-child:hover{
+
+    background:#125aa8;
+
+}
+
+.button-group button:last-child{
+
+    background:#757575;
+    color:white;
+
+}
+
+.button-group button:last-child:hover{
+
+    background:#4d4d4d;
+
+}
+
+.button-group button:disabled{
+
+    background:#bdbdbd;
+    cursor:not-allowed;
+
+}
+
+.error{
+
+    color:#d32f2f;
+    font-size:13px;
+    margin-top:5px;
+
+}
+
+.success{
+
+    margin-top:25px;
+    padding:15px;
+    background:#e8f5e9;
+    color:#2e7d32;
+    border:1px solid #4caf50;
+    border-radius:10px;
+    text-align:center;
+    font-weight:bold;
+    font-size:16px;
+
+}
+
+/* Angular Validation Classes */
+
+.ng-invalid.ng-touched{
+
+    border:2px solid #e53935 !important;
+
+}
+
+.ng-valid.ng-touched{
+
+    border:2px solid #43a047 !important;
+
+}
+
+@media(max-width:768px){
+
+    .enrollment-container{
+
+        width:92%;
+        padding:25px;
+
+    }
+
+    .button-group{
+
+        flex-direction:column;
+
+    }
+
+    .button-group button{
+
+        width:100%;
+
+    }
+
+}

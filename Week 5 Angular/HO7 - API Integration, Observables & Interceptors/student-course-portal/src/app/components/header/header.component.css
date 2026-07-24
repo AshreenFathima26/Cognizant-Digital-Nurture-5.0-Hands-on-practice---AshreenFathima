@@ -1,0 +1,41 @@
+nav{
+    background:#2c5b8c;
+    padding:18px 40px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav h2{
+    color:white;
+    margin:0;
+    font-size:34px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:35px;
+    margin:0;
+}
+
+nav ul li a{
+
+    text-decoration:none;
+
+    color:white;
+
+    font-size:20px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+nav ul li a:hover{
+
+    color:#ffd54f;
+
+}
