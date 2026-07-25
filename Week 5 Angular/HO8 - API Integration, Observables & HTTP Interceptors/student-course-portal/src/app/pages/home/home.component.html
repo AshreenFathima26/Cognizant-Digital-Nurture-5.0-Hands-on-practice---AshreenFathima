@@ -1,0 +1,71 @@
+<div class="home-container">
+
+    <h1>{{ portalName }}</h1>
+
+    <p class="subtitle">
+        Welcome to the Cognizant Digital Nurture 5.0 Angular Hands-On.
+    </p>
+
+    <!-- Property Binding -->
+    <img
+        [src]="bannerImage"
+        alt="Student Portal"
+        class="banner">
+
+    <!-- Property Binding -->
+    <button
+        class="btn"
+        [disabled]="!isPortalActive"
+        (click)="onEnrollClick()">
+
+        Enroll Now
+
+    </button>
+
+    <!-- Event Binding -->
+    <p class="success">{{ message }}</p>
+
+    <hr>
+
+    <h3>Search Courses</h3>
+
+    <!-- Two-way Binding -->
+    <input
+        type="text"
+        placeholder="Search..."
+        [(ngModel)]="searchTerm">
+
+    <p>Searching for : <strong>{{ searchTerm }}</strong></p>
+
+    <hr>
+
+    <div class="stats">
+
+        <div class="card">
+            <h2>{{ availableCourses }}</h2>
+            <p>Courses Available</p>
+        </div>
+
+        <div class="card">
+            <h2>3</h2>
+            <p>Enrolled</p>
+        </div>
+
+        <div class="card">
+            <h2>3.8</h2>
+            <p>GPA</p>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <!-- HO6 Course Summary Widget -->
+    <app-course-summary-widget></app-course-summary-widget>
+
+    <br>
+
+    <!-- HO6 Notification Component -->
+    <app-notification></app-notification>
+
+</div>

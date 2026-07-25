@@ -1,0 +1,32 @@
+Angular Project Structure Notes
+
+1. angular.json
+Used to configure the Angular project, including build, serve and other project settings.
+
+2. tsconfig.json
+Contains the common TypeScript compiler options for the project.
+
+3. tsconfig.app.json
+Stores TypeScript settings used only for the Angular application.
+
+4. package.json
+Contains project information, required packages and npm scripts.
+
+5. src/main.ts
+Entry point of the Angular application. It starts the application.
+
+6. src/app/app.config.ts
+Contains the application's global configuration such as providers and routing.
+
+7. src/app/app.component.ts
+Root component of the application that loads the main user interface.
+
+8. src/index.html
+Main HTML page where the Angular application is loaded.
+
+The Angular project structure is designed to separate configuration, application logic, and user interface into organized modules. Understanding the purpose of each generated file helps in maintaining a scalable, readable, and well-structured Angular application.
+
+Prepared as part of:
+Cognizant Digital Nurture 5.0
+Angular Hands-On 1
+Student Course Portal

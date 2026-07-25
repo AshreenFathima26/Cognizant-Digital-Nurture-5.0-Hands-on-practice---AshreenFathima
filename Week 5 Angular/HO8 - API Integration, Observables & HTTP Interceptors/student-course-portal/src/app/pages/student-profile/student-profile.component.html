@@ -1,0 +1,86 @@
+<div class="profile-container">
+
+    <div class="profile-header">
+
+        <div class="avatar">
+            👨‍🎓
+        </div>
+
+        <div class="details">
+
+            <h1>Student Profile</h1>
+
+            <h2>Ashreen Fathima</h2>
+
+            <p>Computer Science & Design</p>
+
+            <p>RMK Engineering College</p>
+
+        </div>
+
+    </div>
+
+    <div class="stats">
+
+        <div class="stat-card">
+            <h3>{{ enrolledCourses.length }}</h3>
+            <p>Enrolled Courses</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>8.01</h3>
+            <p>CGPA</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>Semester 6</h3>
+            <p>Current Semester</p>
+        </div>
+
+    </div>
+
+    <div class="courses-section">
+
+        <h2>📚 My Courses</h2>
+
+        <div *ngIf="enrolledCourses.length; else noCourses">
+
+            <div
+                class="course-card"
+                *ngFor="let course of enrolledCourses">
+
+                <div>
+
+                    <h3>{{course.name}}</h3>
+
+                    <p>{{course.code}}</p>
+
+                    <p>{{course.credits}} Credits</p>
+
+                </div>
+
+                <span class="badge">
+                    Enrolled
+                </span>
+
+            </div>
+
+        </div>
+
+        <ng-template #noCourses>
+
+            <div class="empty">
+
+                <h3>No Courses Enrolled</h3>
+
+                <p>
+                    Visit the Courses page and enroll in a course.
+                </p>
+
+            </div>
+
+        </ng-template>
+
+    </div>
+
+</div>
