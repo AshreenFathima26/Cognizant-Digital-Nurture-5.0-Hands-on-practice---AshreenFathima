@@ -160,64 +160,55 @@ The objective of this repository is to strengthen my understanding of enterprise
 
 ## ✅ Week 5 – Frontend Development (Angular)
 
-### Topics Covered
+### 📚 Topics Covered
 
-- Angular Fundamentals
-- Standalone Components
-- Component Communication
-- Data Binding
-- Directives
-- Pipes
-- Routing
-- Lazy Loading
-- Route Guards
-- Template-Driven Forms
-- Reactive Forms
-- Services
-- Dependency Injection
-- HTTP Client
-- REST API Integration
-- RxJS Observables
-- HTTP Interceptors
-- Loading Indicators
-- Error Handling
-- Notification Services
-- State Management using NgRx
-- Unit Testing
-- Jasmine
-- Karma
-- Angular TestBed
-- Component Testing
-- Service Testing
-- MockStore Testing
+| Module | Concepts Covered |
+|---------|------------------|
+| **Angular Core** | Angular Fundamentals, Standalone Components, Component Communication, Data Binding, Directives, Pipes |
+| **Navigation** | Routing, Lazy Loading, Route Guards |
+| **Forms** | Template-Driven Forms, Reactive Forms |
+| **Services** | Angular Services, Dependency Injection |
+| **API Integration** | HTTP Client, REST API Integration |
+| **Reactive Programming** | RxJS Observables, HTTP Interceptors |
+| **User Experience** | Loading Indicators, Error Handling, Notification Services |
+| **State Management** | NgRx Store |
+| **Testing** | Unit Testing, Jasmine, Karma, Angular TestBed, Component Testing, Service Testing, MockStore Testing |
 
-### Hands-on Exercises
+---
 
-- HO1 – Environment Setup & First Component
-- HO2 – Data Binding & Component Communication
-- HO3 – Directives & Pipes
-- HO4 – Template-Driven Forms & Validation
-- HO5 – Reactive Forms
-- HO6 – Services & Dependency Injection
-- HO7 – API Integration, Routing & Observables
-- HO8 – HTTP Client, RxJS & Interceptors
-- HO9 – NgRx State Management
-- HO10 – Unit Testing Angular Applications
+### 🛠 Hands-on Exercises
 
-### Learning Outcomes
+| Hands-on | Description |
+|----------|-------------|
+| **HO1** | Environment Setup & First Component |
+| **HO2** | Data Binding & Component Communication |
+| **HO3** | Directives & Pipes |
+| **HO4** | Template-Driven Forms & Validation |
+| **HO5** | Reactive Forms |
+| **HO6** | Services & Dependency Injection |
+| **HO7** | API Integration, Routing & Observables |
+| **HO8** | HTTP Client, RxJS & HTTP Interceptors |
+| **HO9** | NgRx State Management |
+| **HO10** | Unit Testing Angular Applications |
 
-- Developed a complete Angular Student Course Portal
-- Built reusable standalone components
-- Implemented Angular Routing and Navigation
-- Applied Template-Driven and Reactive Forms
-- Used Dependency Injection and Angular Services
-- Consumed REST APIs using HttpClient
-- Implemented RxJS Observables and Operators
-- Configured HTTP Interceptors for authentication, loading and error handling
-- Implemented NgRx Store for State Management
-- Performed Unit Testing using Jasmine and Karma
-- Tested Components, Services and Store-connected Components
-- Improved application structure following Angular best practices
+---
+
+### 🎯 Learning Outcomes
+
+| Area | Achievement |
+|------|-------------|
+| **Application Development** | Developed a complete Angular Student Course Portal |
+| **Component Design** | Built reusable standalone Angular components |
+| **Navigation** | Implemented Angular Routing, Lazy Loading, and Route Guards |
+| **Forms** | Applied Template-Driven and Reactive Forms with validation |
+| **Service Layer** | Used Dependency Injection and Angular Services effectively |
+| **REST Integration** | Consumed REST APIs using Angular HttpClient |
+| **Reactive Programming** | Implemented RxJS Observables and Operators |
+| **Interceptors** | Configured authentication, loading, and error interceptors |
+| **State Management** | Implemented centralized state management using NgRx Store |
+| **Testing** | Performed Unit Testing using Jasmine, Karma, Angular TestBed, and MockStore |
+| **Best Practices** | Improved application architecture following Angular development standards |
+
 ---
 
 ## ✅ Week 6 – Version Control & CI/CD
@@ -245,14 +236,23 @@ The objective of this repository is to strengthen my understanding of enterprise
 
 ---
 
-## ⏳ Week 7 – DevOps & Cloud
+## ✅ Week 7 – DevOps & Cloud
 
-### Planned Topics
+### Topics Covered
 
-- Docker
-- Cloud Fundamentals
+- Docker Fundamentals
 - DevOps Basics
+- Continuous Integration & Continuous Deployment (CI/CD)
+- Cloud Fundamentals
 - Generative AI Fundamentals
+
+### Learning Resources
+
+- Docker Fundamentals.pdf
+- DevOps Basics.pdf
+- CI and CD Pipeline Fundamentals.pdf
+- Cloud Fundamentals.pdf
+- Generative AI Fundamentals.pdf
 
 ---
 
@@ -278,7 +278,7 @@ The objective of this repository is to strengthen my understanding of enterprise
 | Week 4 | ✅ Completed |
 | Week 5 | ✅ Completed |
 | Week 6 | ✅ Completed |
-| Week 7 | ⏳ Upcoming |
+| Week 7 | ✅ Completed |
 
 ---
 
