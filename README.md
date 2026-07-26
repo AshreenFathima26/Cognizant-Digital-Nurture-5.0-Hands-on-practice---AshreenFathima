@@ -242,47 +242,17 @@ The objective of this repository is to strengthen my understanding of enterprise
 
 ---
 
-# 💻 Technologies Covered
+# 🛠️ Technologies Covered
 
-### Programming Languages
-
-- Java
-- SQL
-- PL/SQL
-- JavaScript
-
-### Frameworks
-
-- Spring Core
-- Spring Boot
-- Spring Data JPA
-- Hibernate
-
-### Databases
-
-- MySQL
-- SQL
-- PL/SQL
-
-### Tools
-
-- Maven
-- Git
-- GitHub
-- VS Code
-
-### Concepts
-
-- Object-Oriented Programming
-- Design Patterns
-- Data Structures
-- Algorithms
-- Dependency Injection
-- REST APIs
-- Microservices
-- Logging
-- Testing
-
+| Category | Technologies |
+|----------|--------------|
+| **Programming Languages** | Java, SQL, PL/SQL, JavaScript, TypeScript |
+| **Frontend** | Angular 19, HTML5, CSS3, RxJS, NgRx |
+| **Backend Frameworks** | Spring Core, Spring Boot, Spring Data JPA, Hibernate |
+| **Databases** | MySQL, SQL, PL/SQL |
+| **Tools & IDEs** | Maven, Git, GitHub, VS Code, JSON Server |
+| **Testing** | Jasmine, Karma, Angular TestBed, HttpTestingController |
+| **Concepts** | Object-Oriented Programming, Design Patterns, Data Structures, Algorithms, Dependency Injection, REST APIs, Microservices, Observables, HTTP Interceptors, State Management, Logging, Unit Testing |
 
 ## 📈 Current Progress
 
