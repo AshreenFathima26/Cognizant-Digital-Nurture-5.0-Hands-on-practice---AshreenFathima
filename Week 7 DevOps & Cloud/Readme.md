@@ -1,5 +1,11 @@
 # Week 7 – DevOps & Cloud
 
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Program](https://img.shields.io/badge/Cognizant-Digital%20Nurture%205.0-blue)
+![Track](https://img.shields.io/badge/Track-Java%20FSE-orange)
+![Week](https://img.shields.io/badge/Week-7-purple)
+![Topics](https://img.shields.io/badge/Topics-DevOps%20%7C%20Cloud%20%7C%20GenAI-success)
+
 ## Overview
 
 This repository contains the learning resources and study materials prepared as part of the **Cognizant Digital Nurture 5.0 – Deep Skilling Program (Java Full Stack Engineer Track)** for **Week 7 – DevOps & Cloud**.
