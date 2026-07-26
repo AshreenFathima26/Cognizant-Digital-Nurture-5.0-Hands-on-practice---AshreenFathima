@@ -1,0 +1,72 @@
+<div class="course-detail-container" *ngIf="course; else notFound">
+
+    <div class="course-header">
+
+        <h1>{{ course.name }}</h1>
+
+        <span
+            class="status-badge"
+            [ngClass]="{
+                'passed': course.gradeStatus==='passed',
+                'pending': course.gradeStatus==='pending',
+                'failed': course.gradeStatus==='failed'
+            }">
+
+            {{ course.gradeStatus | titlecase }}
+
+        </span>
+
+    </div>
+
+    <div class="detail-card">
+
+        <div class="detail-row">
+            <span>Course ID</span>
+            <strong>{{ course.id }}</strong>
+        </div>
+
+        <div class="detail-row">
+            <span>Course Code</span>
+            <strong>{{ course.code }}</strong>
+        </div>
+
+        <div class="detail-row">
+            <span>Course Name</span>
+            <strong>{{ course.name }}</strong>
+        </div>
+
+        <div class="detail-row">
+            <span>Credits</span>
+            <strong>{{ course.credits }}</strong>
+        </div>
+
+        <div class="detail-row">
+            <span>Status</span>
+            <strong>{{ course.gradeStatus | titlecase }}</strong>
+        </div>
+
+    </div>
+
+    <div class="button-group">
+
+        <button routerLink="/courses">
+            ← Back to Courses
+        </button>
+
+    </div>
+
+</div>
+
+<ng-template #notFound>
+
+<div class="not-found">
+
+    <h2>Course Not Found</h2>
+
+    <button routerLink="/courses">
+        Go Back
+    </button>
+
+</div>
+
+</ng-template>
