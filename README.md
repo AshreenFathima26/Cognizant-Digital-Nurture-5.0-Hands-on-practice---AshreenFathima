@@ -5,6 +5,11 @@
 ![SQL](https://img.shields.io/badge/SQL-Database-blue?style=for-the-badge&logo=mysql)
 ![Git](https://img.shields.io/badge/Git-Version_Control-red?style=for-the-badge&logo=git)
 ![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)
+![Angular](https://img.shields.io/badge/Angular-19-DD0031?style=for-the-badge&logo=angular)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript)
+![NgRx](https://img.shields.io/badge/NgRx-State%20Management-BA2BD2?style=for-the-badge&logo=ngrx)
+![Maven](https://img.shields.io/badge/Maven-Build-C71A36?style=for-the-badge&logo=apachemaven)
+![JSON Server](https://img.shields.io/badge/JSON%20Server-API-black?style=for-the-badge&logo=json)
 
 ---
 
@@ -29,6 +34,18 @@ The objective of this repository is to strengthen my understanding of enterprise
 📍 Tamil Nadu, India
 
 💻 Aspiring Java Full Stack Developer
+
+---
+
+# 📂 Quick Navigation
+
+- 📘 Week 1 – Core Java & Programming Fundamentals
+- 🌱 Week 2 – Spring Framework
+- 🌐 Week 3 – REST API Development
+- ☁️ Week 4 – Enterprise Development (Microservices)
+- ⚡ Week 5 – Angular Frontend Development
+- 🚀 Week 6 – Version Control & CI/CD *(Upcoming)*
+- ☁️ Week 7 – DevOps & Cloud *(Upcoming)*
 
 ---
 
@@ -141,16 +158,66 @@ The objective of this repository is to strengthen my understanding of enterprise
 
 ---
 
-## ⏳ Week 5 – Frontend Development
+## ✅ Week 5 – Frontend Development (Angular)
 
-### Planned Topics
+### Topics Covered
 
-- Angular / React
-- Components
+- Angular Fundamentals
+- Standalone Components
+- Component Communication
+- Data Binding
+- Directives
+- Pipes
 - Routing
-- Forms
-- API Integration
+- Lazy Loading
+- Route Guards
+- Template-Driven Forms
+- Reactive Forms
+- Services
+- Dependency Injection
+- HTTP Client
+- REST API Integration
+- RxJS Observables
+- HTTP Interceptors
+- Loading Indicators
+- Error Handling
+- Notification Services
+- State Management using NgRx
+- Unit Testing
+- Jasmine
+- Karma
+- Angular TestBed
+- Component Testing
+- Service Testing
+- MockStore Testing
 
+### Hands-on Exercises
+
+- HO1 – Environment Setup & First Component
+- HO2 – Data Binding & Component Communication
+- HO3 – Directives & Pipes
+- HO4 – Template-Driven Forms & Validation
+- HO5 – Reactive Forms
+- HO6 – Services & Dependency Injection
+- HO7 – API Integration, Routing & Observables
+- HO8 – HTTP Client, RxJS & Interceptors
+- HO9 – NgRx State Management
+- HO10 – Unit Testing Angular Applications
+
+### Learning Outcomes
+
+- Developed a complete Angular Student Course Portal
+- Built reusable standalone components
+- Implemented Angular Routing and Navigation
+- Applied Template-Driven and Reactive Forms
+- Used Dependency Injection and Angular Services
+- Consumed REST APIs using HttpClient
+- Implemented RxJS Observables and Operators
+- Configured HTTP Interceptors for authentication, loading and error handling
+- Implemented NgRx Store for State Management
+- Performed Unit Testing using Jasmine and Karma
+- Tested Components, Services and Store-connected Components
+- Improved application structure following Angular best practices
 ---
 
 ## ⏳ Week 6 – Version Control & CI/CD
@@ -217,47 +284,51 @@ The objective of this repository is to strengthen my understanding of enterprise
 - Testing
 
 
-# 📈 Current Progress
+## 📈 Current Progress
 
 | Week | Status |
-|------|--------|
+|------|---------|
 | Week 1 | ✅ Completed |
 | Week 2 | ✅ Completed |
 | Week 3 | ✅ Completed |
-| Week 4 | ⏳ In Progress |
-| Week 5 | ⏳ Upcoming |
+| Week 4 | ✅ Completed |
+| Week 5 | ✅ Completed |
 | Week 6 | ⏳ Upcoming |
 | Week 7 | ⏳ Upcoming |
 
 ---
 
-# 🌱 Skills Developed
+## 🌱 Skills Developed
 
 ✔ Java Programming
 
-✔ Problem Solving
-
-✔ Object-Oriented Programming
-
-✔ Design Patterns
-
-✔ Data Structures & Algorithms
-
-✔ SQL & PL/SQL
-
-✔ Spring Framework
-
 ✔ Spring Boot
-
-✔ Hibernate
-
-✔ Spring Data JPA
 
 ✔ REST API Development
 
-✔ Maven
+✔ Microservices
+
+✔ Angular Development
+
+✔ TypeScript
+
+✔ RxJS
+
+✔ Angular Routing
+
+✔ Angular Forms
+
+✔ HTTP Client
+
+✔ Dependency Injection
+
+✔ NgRx State Management
+
+✔ Unit Testing (Jasmine & Karma)
 
 ✔ Git & GitHub
+
+✔ Problem Solving
 
 ---
 
