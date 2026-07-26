@@ -1,0 +1,41 @@
+{
+  "courses": [
+    {
+      "id": "2",
+      "name": "Java Programming",
+      "code": "JAVA201",
+      "credits": 4,
+      "gradeStatus": "pending"
+    },
+    {
+      "id": "3",
+      "name": "Spring Boot (Updated)",
+      "code": "SPR301",
+      "credits": 3,
+      "gradeStatus": "passed",
+      "enrolled": false
+    },
+    {
+      "id": "4",
+      "name": "Database Management Systems",
+      "code": "DBMS401",
+      "credits": 4,
+      "gradeStatus": "failed"
+    },
+    {
+      "id": "5",
+      "name": "Web Development",
+      "code": "WEB501",
+      "credits": 3,
+      "gradeStatus": "pending"
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "name": "Ashreen Fathima"
+    }
+  ],
+  "enrollments": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
