@@ -220,14 +220,28 @@ The objective of this repository is to strengthen my understanding of enterprise
 - Improved application structure following Angular best practices
 ---
 
-## ⏳ Week 6 – Version Control & CI/CD
+## ✅ Week 6 – Version Control & CI/CD
 
-### Planned Topics
+### Topics Covered
 
-- Angular / React
-- Git
-- GitHub
-- CI/CD Pipeline
+- Git Installation & Configuration
+- Git Repository Initialization
+- Git Ignore (.gitignore)
+- Branching & Branch Management
+- Branch Switching
+- Branch Merging
+- Merge Conflict Resolution
+- GitHub Remote Repository
+- Git Push & Git Pull
+- Version Control Best Practices
+
+### Hands-on Exercises
+
+- HO1 – Git Configuration
+- HO2 – Git Ignore
+- HO3 – Branching and Merging
+- HO4 – Merge Conflict Resolution
+- HO5 – Git Push and Git Pull
 
 ---
 
@@ -263,7 +277,7 @@ The objective of this repository is to strengthen my understanding of enterprise
 | Week 3 | ✅ Completed |
 | Week 4 | ✅ Completed |
 | Week 5 | ✅ Completed |
-| Week 6 | ⏳ Upcoming |
+| Week 6 | ✅ Completed |
 | Week 7 | ⏳ Upcoming |
 
 ---
